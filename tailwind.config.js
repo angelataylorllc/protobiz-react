@@ -7,8 +7,6 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern':
-          "linear-gradient(to right bottom, rgba(17, 24, 39, 0.9), rgba(76, 29, 149, 0.9)), url('../public/top_squiggly.svg')",
       },
     },
   },

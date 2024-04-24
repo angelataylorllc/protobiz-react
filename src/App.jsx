@@ -34,12 +34,12 @@ function App() {
             <ul className="flex text-white pt-6 pb-10 justify-around text-xs gap-3 sm:text-sm sm:py-10 md:gap-8 
                md:whitespace-nowrap md:text-base lg:text-lg lg:gap-6 xl:mr-16 xl:text-xl">
               <li>
-                <a className="cursor-pointer text-lime-500" href="#">Home</a>
+                <a className="cursor-pointer sm:hover:text-base md:hover:text-lg lg:hover:text-xl xl:hover:text-2xl text-lime-500" href="#">Home</a>
                 <img src= {underline} />
               </li>
-              <li><a className="cursor-pointer " href="#services">Services</a></li>
-              <li><a className="cursor-pointer " href="#HowItWorks">How It Works</a></li>
-              <li><a className="cursor-pointer " href="#contact">Contact</a></li>             
+              <li><a className="cursor-pointer sm:hover:text-base md:hover:text-lg lg:hover:text-xl xl:hover:text-2xl " href="#services">Services</a></li>
+              <li><a className="cursor-pointer sm:hover:text-base md:hover:text-lg lg:hover:text-xl xl:hover:text-2xl " href="#HowItWorks">How It Works</a></li>
+              <li><a className="cursor-pointer sm:hover:text-base md:hover:text-lg lg:hover:text-xl xl:hover:text-2xl " href="">Contact</a></li>             
             </ul>
           </div>
 
@@ -122,9 +122,12 @@ function App() {
 
 
     <div id="services" className="flex flex-col w-5/6 m-auto mb-12 md:w-2/4 md:mx-auto lg:my-20 lg:w-2/5 2xl:mb-20">
-        <h2 className="text-white font-semibold mt-20 text-3xl sm:text-5xl text-center lg:text-5xl 2xl:text-6xl">
+        <h2 className="text-white font-semibold mt-20 mb-4 text-center text-3xl sm:text-5xl lg:text-5xl 2xl:text-6xl">
           Current Offering</h2>
-        <img className="p-10 md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
+          
+          <a href="https://forms.gle/fNQzHquqMgUKgSg58">  
+        <img className="p-10 hover:bg-white md:h-80 md:w-96 md:m-auto lg:h-96 lg:w-auto" src= {croissant} />
+        </a>
 
         <div className="flex justify-around sm:mx-10 2xl:w-4/6 2xl:mx-auto">
           <div className="flex flex-col">
@@ -148,6 +151,7 @@ function App() {
 
    <div className="h-24 sm:h-44 md:h-96 bg-white"></div>
 
+
     {/* How It Works Div */}
 
 
@@ -155,33 +159,35 @@ function App() {
       <h1 className="text-white text-xl sm:text-4xl mx-8 mt-12 font-bold text-center p-10 lg:my-12 lg:text-5xl 
       2xl:mt-20"> How It Works</h1>
 
-      <div className="flex flex-row bg-[url('../public/ramen25.jpg')] 
-      w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
+      <div className="flex flex-row bg-[url('../public/ramen25.jpg')] hover:w-5/6 md:hover:2/3 lg:hover:w-2/5
+      w-2/3 rounded-md h-72 bg-cover mx-10 md:w-1/2 md:mx-auto lg:w-1/3 lg:rounded-2xl lg:mb-24">
 
-        <div className="flex flex-col ">
+      <a  href="#contact"> 
+        <div className="flex flex-col">
           <h1 className="text-white text-center font-semibold mt-4 mx-1 sm:text-3xl sm:mx-8  sm:mt-8 lg:mx-2 
           lg:mt-4 "> 
             1. Fill Out Site Survey</h1>
-          <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8  lg:text-base lg:mt-6 lg:mb-0 
+          <p className="text-white text-justify text-sm hover:text-base m-4 leading-4 sm:leading-6 sm:m-8  lg:text-base lg:hover:text-lg lg:mt-6 lg:mb-0 
           lg:mx-6 lg:font-semibold 2xl:w-5/6 2xl:mx-auto">Start by filling out a quick survey tailored to understand your 
             small business website needs. Your responses will guide our developers in comprehending your requirements 
             better, ensuring we deliver exactly what you want for your business&apos;s digital presence.</p>
         </div>
+      </a>
 
       </div>
 
       <div className="m-10"></div>
 
       <div className="flex flex-row bg-[url('../public/shrimptacos25.jpg')] 
-        w-4/6 mx-auto rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
+        w-4/6 rounded-md h-72 bg-cover mx-10 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
             <h1 className="text-white text-center font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 sm:mt-8"> 
               2. Prototype Build</h1>
             <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8 lg:text-base lg:mx-6 
-            lg:font-semibold 2xl:w-5/6 2xl:mx-auto ">Next we’ll use your 
+            lg:font-semibold 2xl:w-5/6 2xl:mx-auto ">Next we&apos;ll use your 
             survey input to build your tailor-made website for you, and share it with you within 
-            1 week. At that time you can review and submit any edits or revisions, which we’ll 
+            1 week. At that time you can review and submit any edits or revisions, which we&apos;ll 
             incorporate.</p>
           </div>
 
@@ -190,15 +196,15 @@ function App() {
       <div className="m-10"></div>
 
       <div className="flex flex-row bg-[url('../public/skilletbreakfast25.jpg')] 
-        w-4/6 mx-auto rounded-md h-72 bg-cover mx-8 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
+        w-4/6 rounded-md h-72 bg-cover mx-8 md:w-2/4 md:mx-auto lg:w-2/6 lg:rounded-2xl lg:mb-24">
 
           <div className="flex flex-col">
             <h1 className="text-white text-center font-semibold mt-4 sm:text-3xl mx-4 sm:mx-8 lg:mx-0 sm:mt-8"> 
               3. Refine, Publish, Deliver</h1>
             <p className="text-white text-justify text-sm m-4 leading-4 sm:leading-6 sm:m-8 lg:text-base lg:mx-6 
             lg:font-semibold 2xl:w-5/6 2xl:mx-auto">We’ll spend 1 week 
-            making sure we’ve captured all of your revisions, then finish and publish the site 
-            online. Finally we’ll hand off everything to you, with the site ready to go.</p>
+            making sure we&apos;ve captured all of your revisions, then finish and publish the site 
+            online. Finally we&apos;ll hand off everything to you, with the site ready to go.</p>
           </div>
 
       </div>
@@ -207,8 +213,8 @@ function App() {
     {/* About Us */}
 
 
-    <div className="flex flex-col m-8 mb-0 md:w-3/6 md:mx-auto md:-mb-24 md:mt-40 md:w-4/6 lg:-mb-64 lg:mt-48 lg:w-3/6">
-      <div className="text-lime-400 font-semibold text-2xl sm:text-3xl text-center mt-24">ABOUT US</div>
+    <div className="flex flex-col m-8 mb-0 md:mx-auto md:-mb-24 md:mt-40 md:w-4/6 lg:-mb-64 lg:mt-48 lg:w-3/6">
+      <div className="text-lime-400 text-center mt-24 font-semibold text-2xl sm:text-3xl lg:text-4xl">ABOUT US</div>
       <div className="text-white font-semibold text-center text-3xl mt-4 mx-auto w-5/6 -mb-20 sm:text-4xl  sm:mt-10  
       sm:w-4/6 sm:-mb-16 2xl:text-5xl 2xl:mb-0">
         We Build Beautiful Websites for You</div>
@@ -241,7 +247,7 @@ function App() {
 
 
       <div className="text-center p-4 mt-4 md:mb-16 2xl:mt-12">
-        <a className="text-lime-400 cursor-pointer text-lg font-semibold 2xl:text-2xl" 
+        <a className="text-lime-400 font-semibold cursor-pointer text-lg hover:xl 2xl:hover:text-3xl 2xl:text-2xl" 
         href="https://colliertech.org/~cjac/resume/cjac.html">
           View Resume here for more details</a>
       </div>
@@ -260,16 +266,16 @@ function App() {
       <div className="flex flex-col p-4 sm:p-8 md:m-auto lg:w-auto lg:flex-row lg:p-2 2xl:w-5/6">
         <div>
           <h2 className="text-white text-center text-xl font-semibold mx-4 my-2 sm:text-3xl sm:mx-8 mt-12  lg:mx-16">
-            Fill Out Client Website Form Here</h2>
+            Fill Out Site Survey Here</h2>
           <p className="text-white text-base text-justify mt-4 mx-8 sm:leading-8 sm:m-12 sm:mt-10 md:my-12 lg:px-12
            lg:text-lg">
-            Click here to access our Website Request form, giving us details on what you’d like to see on your site 
-            and how you’d like it to behave.</p>
+            Click here to access our Site Survey form, giving us details on what you&apos;d like to see on your site 
+            and how you&apos;d like it to behave.</p>
         </div>
-       <div className="m-auto lg:px-16">
+       <div className="m-auto lg:w-44">
         <a href="https://forms.gle/fNQzHquqMgUKgSg58">
-        <button className="bg-lime-400 text-black rounded-2xl w-28 p-3 mx-auto whitespace-nowrap">
-          Access Form</button>
+        <button className="bg-lime-400 text-black hover:text-lg hover:w-32 font-semibold rounded-2xl w-28 p-3 mx-auto whitespace-nowrap">
+          Click Here</button>
         </a>
         
        </div>
@@ -285,7 +291,7 @@ function App() {
 
     <div className="text-white  flex flex-col text-center py-10 md:mt-16 md:flex-row md:justify-center lg:pt-20">
       <div className="font-bold text-2xl mt-16 mb-6 md:mr-16 lg:my-auto lg:py-10">Collier Technologies LLC</div>
-      <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10">cjac@colliertech.com</div>
+      <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10 hover:text-2xl"><a href="mailto:cjac@colliertech.com">cjac@colliertech.com</a></div>
       <div className="text-xl md:mt-16 lg:my-auto lg:py-10">+1 425 523 2637</div>
     </div>
 
