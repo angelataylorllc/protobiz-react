@@ -6,6 +6,7 @@ import underline from '../public/home-underline.png'
 import katakana from '../public/Katakana.png'
 import croissant from '../public/croissantsandwich30.jpg'
 
+
 function App() {
   
 
@@ -273,7 +274,7 @@ function App() {
             and how you&apos;d like it to behave.</p>
         </div>
        <div className="m-auto lg:w-44">
-        <a href="https://forms.gle/fNQzHquqMgUKgSg58">
+        <a href="https://simple.colliertech.org/interest-form">
         <button className="bg-lime-400 text-black hover:text-lg hover:w-32 font-semibold rounded-2xl w-28 p-3 mx-auto whitespace-nowrap">
           Click Here</button>
         </a>
@@ -291,8 +292,8 @@ function App() {
 
     <div className="text-white  flex flex-col text-center py-10 md:mt-16 md:flex-row md:justify-center lg:pt-20">
       <div className="font-bold text-2xl mt-16 mb-6 md:mr-16 lg:my-auto lg:py-10">Collier Technologies LLC</div>
-      <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10 hover:text-2xl"><a href="mailto:cjac@colliertech.com">cjac@colliertech.com</a></div>
-      <div className="text-xl md:mt-16 lg:my-auto lg:py-10">+1 425 523 2637</div>
+      <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10 hover:text-2xl"><a href="mailto:info@colliertech.org">info@colliertech.org</a></div>
+      <div className="text-xl md:mt-16 lg:my-auto lg:py-10">+1 (206) 226 5809</div>
     </div>
 
 
