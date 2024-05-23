@@ -293,7 +293,6 @@ function App() {
     <div className="text-white  flex flex-col text-center py-10 md:mt-16 md:flex-row md:justify-center lg:pt-20">
       <div className="font-bold text-2xl mt-16 mb-6 md:mr-16 lg:my-auto lg:py-10">Collier Technologies LLC</div>
       <div className="text-xl mb-6 md:mt-16 md:mr-16 lg:my-auto lg:py-10 hover:text-2xl"><a href="mailto:info@colliertech.org">info@colliertech.org</a></div>
-      <div className="text-xl md:mt-16 lg:my-auto lg:py-10">+1 (206) 226 5809</div>
     </div>
 
 
